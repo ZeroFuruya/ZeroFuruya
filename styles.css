@@ -1,0 +1,75 @@
+    table,
+    th,
+    td {
+        position: center;
+        border: 2px solid black;
+        margin-left: 307px;
+        background-color: rgba(37, 37, 37, 0.267);
+        border-collapse: collapse;
+        border-style: outset;
+        padding: 10px;
+        transition: 1s;
+    }
+    
+    .stephenName:hover {
+        background-color: yellow;
+    }
+    
+    #aloeName {
+        text-decoration-line: underline;
+        text-decoration-style: double;
+    }
+    
+    #aloeName:hover {
+        background-color: white;
+        animation-delay: 2s;
+    }
+    
+    #chesterName:hover {
+        background-color: blue;
+    }
+    
+    .displayMe {
+        max-width: 300px;
+        max-height: 300px;
+        position: absolute;
+        z-index: 100;
+    }
+    
+    .displayMe img {
+        width: 100%;
+        box-shadow: 2px 2px 5px;
+    }
+    
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    body {
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    
+    .bg {
+        background-image: url(luffy.jpg);
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .table1 {
+        color: rgba(255, 255, 255, 0.692);
+    }
+    
+    .head {
+        color: rgba(95, 0, 0, 0.877);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
